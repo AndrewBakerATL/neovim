@@ -1,12 +1,10 @@
-# AstroNvim Template
+# Andrew's AstroNvim Configuration
 
-**NOTE:** This is for AstroNvim v5+
+This is my personal [AstroNvim](https://github.com/AstroNvim/AstroNvim) configuration backup with custom plugins and settings.
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+## 🛠️ Installation/Restore
 
-## 🛠️ Installation
-
-#### Make a backup of your current nvim and shared folder
+#### Make a backup of your current nvim configuration
 
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
@@ -15,16 +13,10 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
+#### Clone this configuration
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/AndrewBakerATL/neovim ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -32,3 +24,18 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+AstroNvim and all plugins will be automatically downloaded and installed on first launch.
+
+## ✨ Included Features
+
+This configuration includes:
+- **Avante.nvim** - AI-powered completion
+- **Blink.cmp** - Fast completion engine with additional sources (tmux, git, emoji, spell)
+- **Enhanced scrolling** - Multiple scrolling plugins for smooth navigation
+- **Image support** - View images directly in Neovim
+- **Multiple themes** - Iceberg, GitHub, CitrusZest themes
+- **Development tools** - TypeScript, Tailwind CSS, Lua, JSON, Bash support
+- **Docker integration** - LazyDocker for container management
+- **Git integration** - Enhanced git workflow tools
+- **Diagnostics** - Trouble.nvim for better error display
