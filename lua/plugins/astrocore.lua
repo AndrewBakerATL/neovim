@@ -45,6 +45,7 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        clipboard = "unnamedplus", -- sets vim.opt.clipboard to system clipboard
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -76,6 +77,15 @@ return {
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
+
+        -- toggle word wrap
+        ["<Leader>tw"] = {
+          function()
+            vim.opt.wrap = not vim.opt.wrap:get()
+            vim.notify("Word wrap " .. (vim.opt.wrap:get() and "enabled" or "disabled"))
+          end,
+          desc = "Toggle word wrap",
+        },
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,

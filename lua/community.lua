@@ -42,5 +42,6 @@ return {
   { import = "astrocommunity.indent.snacks-indent-hlchunk" },
   { import = "astrocommunity.indent.mini-indentscope" },
 
+  { import = "astrocommunity.motion.move-nvim" },
   -- import/override with your plugins folder
 }
