@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.nginx" },
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.colorscheme.iceberg-vim" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.color.nvim-highlight-colors" },
@@ -42,6 +43,5 @@ return {
   { import = "astrocommunity.indent.snacks-indent-hlchunk" },
   { import = "astrocommunity.indent.mini-indentscope" },
 
-  { import = "astrocommunity.motion.move-nvim" },
   -- import/override with your plugins folder
 }
