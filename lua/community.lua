@@ -40,7 +40,12 @@ return {
   { import = "astrocommunity.indent.snacks-indent-hlchunk" },
   { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
-  { import = "astrocommunity.bars-and-lines.bufferline-nvim" }, -- DISABLED
+  { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
+  { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.proto" },
+  { import = "astrocommunity.pack.prettier" },
+
+  -- DISABLED
 
   -- import/override with your plugins folder
 }
