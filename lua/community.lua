@@ -11,7 +11,6 @@ return {
   { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
-  -- { import = "astrocommunity.utility.hover-nvim" }, -- DISABLED: replaced with lspsaga
   { import = "astrocommunity.lsp.lspsaga-nvim" }, -- LSP-Saga for better hover and UI
   { import = "astrocommunity.pack.nginx" },
   { import = "astrocommunity.pack.biome" },
@@ -33,12 +32,10 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.motion.before-nvim" },
   { import = "astrocommunity.media.image-nvim" },
-  -- { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
   { import = "astrocommunity.editing-support.vim-doge" },
-  { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.indent.snacks-indent-hlchunk" },
   { import = "astrocommunity.indent.mini-indentscope" },
