@@ -46,6 +46,7 @@ return {
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
         clipboard = "unnamedplus", -- sets vim.opt.clipboard to system clipboard
+        mouse = "a", -- enable mouse support in all modes
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
